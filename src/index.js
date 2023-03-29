@@ -26,23 +26,25 @@ client.on("messageCreate", (msg) => {
   }
 
   switch (msg.content) {
-    case "Iyas":
-      msg.channel.send("Nunggu Iyas Bugil ;)");
+    case "selamat pagi":
+      msg.channel.send("Pagi juga sayang ;)");
       break;
-    case "Rizki":
-      msg.channel.send("Udah Cina Kacamata Pula!");
+    case "pagi":
+      msg.channel.send("Pagi juga sayang :)");
       break;
-    case "Wawan":
-      msg.channel.send("Robot bisa apa?");
+    case "halo":
+      msg.channel.send("Hai ;)");
       break;
-    case "Kevin":
-      msg.channel.send("Pengocok Handal");
+    case "dev":
+      msg.channel.send("https://github.com/Kelepyon");
       break;
-    case "Rasyid":
-      msg.channel.send("Pemburu anak kecil");
+    case "kevin":
+      msg.reply("Tunggu dulu sebelum di reply gan :)");
       break;
-    case "Radit":
-      msg.channel.send("Crossdress Dit :)");
+    case "pin":
+      msg.reply("Tunggu dulu sebelum di reply gan :)");
+    case "hai sayang":
+      msg.reply("iya sayang, kenapa ?");
   }
 });
 
