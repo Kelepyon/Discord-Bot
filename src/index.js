@@ -19,7 +19,7 @@ client.on("messageCreate", (msg) => {
     return;
   }
   if (msg.content === "kontol") {
-    msg.reply("muka lu kek kontol!");
+    msg.reply("muka lu kek kontol!"); //Maaf kasar hehe :)
   }
   if (msg.content === "bot kontol") {
     msg.reply("dih sok kuat lu anjer");
