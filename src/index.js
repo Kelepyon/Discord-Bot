@@ -27,10 +27,10 @@ client.on("messageCreate", (msg) => {
 
   switch (msg.content) {
     case "selamat pagi":
-      msg.channel.send("Pagi juga sayang ;)");
+      msg.reply("Pagi juga sayang ;)");
       break;
     case "pagi":
-      msg.channel.send("Pagi juga sayang :)");
+      msg.reply("Pagi juga sayang :)");
       break;
     case "halo":
       msg.channel.send("Hai ;)");
