@@ -45,6 +45,19 @@ client.on("messageCreate", (msg) => {
       msg.reply("Tunggu dulu sebelum di reply gan :)");
     case "hai sayang":
       msg.reply("iya sayang, kenapa ?");
+    case "mba":
+      msg.reply("Iya kenapa mas ?");
+    case "telanjang dong":
+      msg.reply("dm aja mas ;)");
+  }
+});
+
+client.on("interactionCreate", (interaction) => {
+  if (!interaction.isChatInputCommand()) return;
+
+  // console.log(interaction.commandName);
+  if (interaction.commandName === "cok") {
+    interaction.reply("Apa Cok ?");
   }
 });
 
